@@ -1,67 +1,90 @@
-export const projects = [
-  {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
-  },
-];
+export const projects = new Map([
+  [
+    "MW42",
+    {
+      company: "Temenos",
+      date: "July 2018",
+      url: "",
+      title: "testing1",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      image: "./project-1.gif",
+    },
+  ],
+  [
+    "Test",
+    {
+      company: "Temenos",
+      date: "MERN Stack",
+      url: "",
+      title: "testing1",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      image: "./project-1.gif",
+    },
+  ],
+  [
+    "Test1",
+    {
+      company: "Infor",
+      date: "MERN Stack",
+      url: "",
+      title: "testing1",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      image: "./project-1.gif",
+    },
+  ],
+  [
+    "SnellerOfferte",
+    {
+      company: "Infor",
+      date: "MERN Stack",
+      url: "",
+      title: "testing1",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      image: "./project-1.gif",
+    },
+  ],
+  [
+    "Portal2Compare",
+    {
+      company: "Infor",
+      date: "MERN Stack",
+      url: "",
+      title: "testing1",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      image: "./project-1.gif",
+    },
+  ],
+]);
 
 export const portfolio = [
   {
     imgUrl: "img/temenos.png",
     id: "MW42",
-    link: "",
     type: "backend",
   },
   {
     imgUrl: "img/temenos.png",
     id: "Test",
-    link: "",
     type: "backend",
   },
   {
     imgUrl: "img/infor.png",
     id: "Test1",
-    link: "",
     type: "backend",
   },
   {
     imgUrl: "img/m4m.png",
     id: "SnellerOfferte",
-    link: "",
     type: "frontend",
   },
   {
     imgUrl: "img/m4m.png",
     id: "Portal2Compare",
-    link: "",
     type: "frontend",
   },
 ];

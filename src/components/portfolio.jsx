@@ -36,7 +36,7 @@ export default class Portfolio extends Component {
                   <div className="portfolio-info">
                     <div className="portfolio-links">
                       <Link
-                        to="/portfolio-details"
+                        to={`/portfolio/${item.id}`}
                         className="portfolio-details-lightbox"
                         data-glightbox="type: external"
                         title="Portfolio Details"
