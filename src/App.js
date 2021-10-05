@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import HomePage from "./components/home";
-import About from "./components/about";
+import HomePage from "./pages/home";
+import About from "./pages/about";
 
-import Resume from "./components/resume";
-import Portfolio from "./components/portfolio";
-import PortfolioDetails from "./components/portfolio-details";
-import Contact from "./components/contact";
+import Resume from "./pages/resume";
+import Portfolio from "./pages/portfolio";
+import PortfolioDetails from "./pages/portfolio-details";
+import Contact from "./pages/contact";
 import Navigation from "./components/navigation";
 import Footer from "./components/footer";
 

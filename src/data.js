@@ -3,12 +3,13 @@ export const projects = new Map([
     "MW42",
     {
       company: "Temenos",
-      date: "July 2018",
+      date: "July 2018 - Jan 2021",
       url: "",
-      title: "testing1",
+      title: "MW42 Tool",
+      technologies: "Java,JDBC",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
+        "This tool writes the Lock stack,Call stack and the related details of the session into csv file.It is mainly used to monitor system and analyze performance issue.",
+      imgUrl: "img/Snellerofferte.gif",
     },
   ],
   [
@@ -18,9 +19,10 @@ export const projects = new Map([
       date: "MERN Stack",
       url: "",
       title: "testing1",
+      technologies: "Java,JDBC",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
+      imgUrl: "img/Snellerofferte.png",
     },
   ],
   [
@@ -30,33 +32,36 @@ export const projects = new Map([
       date: "MERN Stack",
       url: "",
       title: "testing1",
+      technologies: "Java,JDBC",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
+      imgUrl: "img/Snellerofferte.png",
     },
   ],
   [
     "SnellerOfferte",
     {
-      company: "Infor",
-      date: "MERN Stack",
-      url: "",
+      company: "Match4markets",
+      date: "July 2021 - present",
+      url: "https://www.snelleofferte.nl/",
       title: "testing1",
+      technologies: "Java,JDBC",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
+      imgUrl: "img/Snellerofferte.png",
     },
   ],
   [
     "Portal2Compare",
     {
-      company: "Infor",
-      date: "MERN Stack",
-      url: "",
-      title: "testing1",
+      company: "Match4markets",
+      date: "July 2021 - present",
+      url: "https://www.vergelijkportaal.nl/",
+      title: "Portal2Compare",
+      technologies: "Java,JDBC",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
+      imgUrl: "./project-1.gif",
     },
   ],
 ]);
