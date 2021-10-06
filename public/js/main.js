@@ -66,30 +66,6 @@
   };
 
   /**
-   * Mobile nav toggle
-   */
-  on("click", ".mobile-nav-toggle", function (e) {
-    select("#navbar").classList.toggle("navbar-mobile");
-    this.classList.toggle("bi-list");
-    this.classList.toggle("bi-x");
-  });
-
-  /**
-   * Mobile nav dropdowns activate
-   */
-  on(
-    "click",
-    ".navbar .dropdown > a",
-    function (e) {
-      if (select("#navbar").classList.contains("navbar-mobile")) {
-        e.preventDefault();
-        this.nextElementSibling.classList.toggle("dropdown-active");
-      }
-    },
-    true
-  );
-
-  /**
    * Scrool with ofset on links with a class name .scrollto
    */
   on(
@@ -155,22 +131,6 @@
         true
       );
     }
-  });
-
-  /**
-   * Initiate portfolio lightbox
-   */
-  const portfolioLightbox = GLightbox({
-    selector: ".portfolio-lightbox",
-  });
-
-  /**
-   * Initiate portfolio details lightbox
-   */
-  const portfolioDetailsLightbox = GLightbox({
-    selector: ".portfolio-details-lightbox",
-    width: "90%",
-    height: "90vh",
   });
 
   /**

@@ -6,7 +6,7 @@ import About from "./pages/about";
 
 import Resume from "./pages/resume";
 import Portfolio from "./pages/portfolio";
-import PortfolioDetails from "./pages/portfolio-details";
+
 import Contact from "./pages/contact";
 import Navigation from "./components/navigation";
 import Footer from "./components/footer";
@@ -26,7 +26,6 @@ class App extends Component {
             <Route path="/contact" exact component={() => <Contact />} />
             <Route path="/resume" exact component={() => <Resume />} />
             <Route path="/portfolio" exact component={() => <Portfolio />} />
-            <Route path="/portfolio/:id" component={PortfolioDetails}></Route>
           </Switch>
         </Router>
         <Footer />

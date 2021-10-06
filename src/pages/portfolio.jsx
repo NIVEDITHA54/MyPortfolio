@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+
 import { portfolio } from "../data.js";
 
 export default class Portfolio extends Component {
@@ -21,30 +21,36 @@ export default class Portfolio extends Component {
               </ul>
             </div>
           </div>
-          <div
-            className="row portfolio-container"
-            data-aos="fade-up"
-            data-aos-delay={200}
-          >
+          <div className="row" data-aos="fade-up" data-aos-delay={200}>
             {portfolio.map((item) => (
-              <div
-                key={item.id}
-                className="col-lg-3 col-md-6 portfolio-item filter-{item.type}"
-              >
-                <div className="portfolio-wrap">
-                  <img src={item.imgUrl} className="img-fluid" alt="" />
-                  <div className="portfolio-info">
-                    <div className="portfolio-links">
-                      <Link
-                        to={`/portfolio/${item.id}`}
-                        className="portfolio-details-lightbox"
-                        data-glightbox="type: external"
-                        title="Portfolio Details"
-                      >
-                        {item.id}
-                        <i className="bx bx-link" />
-                      </Link>
-                    </div>
+              <div key={item.id} className="col-sm-6">
+                <div class="card border-light mb-5 rounded-3">
+                  <h2
+                    class="card-header p-4
+                  "
+                  >
+                    {item.title}
+                  </h2>
+                  <div class="card-body">
+                    <p class="card-subtitle mb-2 text-muted">
+                      <strong>Company :</strong> {item.company}
+                    </p>
+                    <p class="card-subtitle mb-2 text-muted">
+                      <strong>Technologies : </strong> {item.technologies}
+                    </p>
+                    <p class="card-subtitle mb-2 text-muted">
+                      <strong>Project date : </strong>
+                      {item.date}
+                    </p>
+                    <p class="card-text">{item.description}</p>
+                    <a
+                      href={item.url}
+                      className="btn-about"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Project link
+                    </a>
                   </div>
                 </div>
               </div>

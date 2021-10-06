@@ -9,8 +9,10 @@ export default class Home extends Component {
           data-aos="zoom-in"
           data-aos-delay={100}
         >
-          <h1>Niveditha Ramu</h1>
-          <h2>I'm a professional illustrator from San Francisco</h2>
+          <h1 className="text-white">Niveditha Ramu</h1>
+          <h2 className="text-white">
+            I'm a professional illustrator from San Francisco
+          </h2>
           <a href="/about" className="btn-about">
             About Me
           </a>

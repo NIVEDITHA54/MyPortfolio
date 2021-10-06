@@ -1,96 +1,58 @@
-export const projects = new Map([
-  [
-    "MW42",
-    {
-      company: "Temenos",
-      date: "July 2018 - Jan 2021",
-      url: "",
-      title: "MW42 Tool",
-      technologies: "Java,JDBC",
-      description:
-        "This tool writes the Lock stack,Call stack and the related details of the session into csv file.It is mainly used to monitor system and analyze performance issue.",
-      imgUrl: "img/Snellerofferte.gif",
-    },
-  ],
-  [
-    "Test",
-    {
-      company: "Temenos",
-      date: "MERN Stack",
-      url: "",
-      title: "testing1",
-      technologies: "Java,JDBC",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      imgUrl: "img/Snellerofferte.png",
-    },
-  ],
-  [
-    "Test1",
-    {
-      company: "Infor",
-      date: "MERN Stack",
-      url: "",
-      title: "testing1",
-      technologies: "Java,JDBC",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      imgUrl: "img/Snellerofferte.png",
-    },
-  ],
-  [
-    "SnellerOfferte",
-    {
-      company: "Match4markets",
-      date: "July 2021 - present",
-      url: "https://www.snelleofferte.nl/",
-      title: "testing1",
-      technologies: "Java,JDBC",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      imgUrl: "img/Snellerofferte.png",
-    },
-  ],
-  [
-    "Portal2Compare",
-    {
-      company: "Match4markets",
-      date: "July 2021 - present",
-      url: "https://www.vergelijkportaal.nl/",
-      title: "Portal2Compare",
-      technologies: "Java,JDBC",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      imgUrl: "./project-1.gif",
-    },
-  ],
-]);
-
 export const portfolio = [
   {
-    imgUrl: "img/temenos.png",
-    id: "MW42",
+    id: 1,
     type: "backend",
+    company: "Temenos",
+    date: "July 2018 - Jan 2021",
+    url: "",
+    title: "MW42 Tool",
+    technologies: "Core Java",
+    description:
+      "This tool writes the Lock stack,Call stack and the related details of the session into csv file.It is mainly used to monitor system and analyze performance issue.",
   },
   {
-    imgUrl: "img/temenos.png",
-    id: "Test",
+    id: 2,
     type: "backend",
+    company: "Temenos",
+    date: "July 2018 - Jan 2021",
+    url: "",
+    title: "Voc Updater Tool",
+    technologies: "Java,JDBC",
+    description:
+      "This tool writes the Lock stack,Call stack and the related details of the session into csv file.It is mainly used to monitor system and analyze performance issue.",
   },
   {
-    imgUrl: "img/infor.png",
-    id: "Test1",
+    id: 3,
     type: "backend",
+    company: "Infor",
+    date: "June 2021",
+    url: "",
+    title: "Test",
+    technologies: "Java,Swing,Hibernate",
+    description:
+      "This tool writes the Lock stack,Call stack and the related details of the session into csv file.It is mainly used to monitor system and analyze performance issue.",
   },
   {
-    imgUrl: "img/m4m.png",
-    id: "SnellerOfferte",
+    id: 4,
     type: "frontend",
+    company: "Match4markets",
+    date: "July 2021 - present",
+    url: "https://www.snelleofferte.nl/",
+    title: "Snellerofferte",
+    technologies: "HTML5,CSS3,Bootstrap5,Jquery,PHP",
+    description:
+      "This tool writes the Lock stack,Call stack and the related details of the session into csv file.It is mainly used to monitor system and analyze performance issue.",
   },
   {
-    imgUrl: "img/m4m.png",
-    id: "Portal2Compare",
+    id: 5,
     type: "frontend",
+    company: "Match4markets",
+    date: "July 2021-present",
+    url: "https://www.vergelijkportaal.nl/",
+    title: "Portal2Compare",
+    technologies: "HTML5,CSS3,Bootstrap5,Jquery,PHP",
+    description:
+      "This tool writes the Lock stack,Call stack and the related details of the session into csv file.It is mainly used to monitor system and analyze performance issue.",
   },
 ];
 export const resume = [
