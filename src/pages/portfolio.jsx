@@ -32,7 +32,7 @@ export default function Portfolio() {
           <span className="focus"></span>
         </div>
 
-        <div className="row" data-aos="fade-up" data-aos-delay={200}>
+        <div className="row" data-aos="fade-up" data-aos-delay={200} mt-5>
           {search(portfolio).map((item) => (
             <div key={item.id} className="col-sm-6">
               <div class="card border-light mb-5 rounded-3">
@@ -54,6 +54,7 @@ export default function Portfolio() {
                     {item.date}
                   </p>
                   <p class="card-text">{item.description}</p>
+
                   <a
                     href={item.url}
                     className="btn-about"
