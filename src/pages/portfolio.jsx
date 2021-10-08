@@ -10,9 +10,9 @@ export default function Portfolio() {
   }
 
   return (
-    <section id="portfolio" className="portfolio">
+    <section id="portfolio" className="portfolio mb-5">
       <div className="container" data-aos="fade-up">
-        <div className="section-title">
+        <div className="section-title mt-5">
           <h2>PROJECTS</h2>
         </div>
         <div className="col-sm-4 offset-sm-4">
@@ -30,7 +30,7 @@ export default function Portfolio() {
           <span className="focus"></span>
         </div>
 
-        <div className="row" data-aos="fade-up" data-aos-delay={200} mt-5>
+        <div className="row mt-5" data-aos="fade-up" data-aos-delay={200} mt-5>
           {search(portfolio).map((item) => (
             <div key={item.id} className="col-sm-6">
               <div class="card border-light mb-5 rounded-3 shadow bg-body">

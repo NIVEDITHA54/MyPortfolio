@@ -18,6 +18,12 @@ const Ul = styled.ul`
   li {
     padding: 18px 10px;
   }
+
+  a:hover,
+  li:hover > a {
+    color: #34b7a7;
+  }
+
   icons {
     font-size: 2rem;
   }
@@ -35,12 +41,16 @@ const Ul = styled.ul`
     a {
       color: white;
     }
+    a:hover,
+    li:hover > a {
+      color: #444444;
+    }
   }
 `;
 
 const RightNav = ({ open, parentCallback }) => {
   return (
-    <Ul open={open}>
+    <Ul open={open} className="mt-3">
       <li>
         <Link to="/">Home</Link>
       </li>

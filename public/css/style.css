@@ -93,7 +93,7 @@ h6 {
 }
 
 .header-social-links a:hover {
-  color: #34b7a7;
+  color: #3dc8b7;
 }
 
 /*--------------------------------------------------------------
@@ -123,11 +123,11 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #222222;
+  color: #ffff;
 }
 
 #hero h2 {
-  color: #6f6f6f;
+  color: #ffff;
   margin: 10px 0 0 0;
   font-size: 22px;
 }

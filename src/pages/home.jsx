@@ -9,9 +9,9 @@ export default class Home extends Component {
           data-aos="zoom-in"
           data-aos-delay={100}
         >
-          <h1 className="text-white">Niveditha Ramu</h1>
-          <h2 className="text-white">I'm a Full Stack developer</h2>
-          <div class="header-social-links">
+          <h1>Niveditha Ramu</h1>
+          <h2>I'm a Full Stack developer</h2>
+          <div className="header-social-links">
             <a
               href="https://github.com/NIVEDITHA54"
               target="_blank"
