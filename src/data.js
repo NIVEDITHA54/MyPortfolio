@@ -80,10 +80,24 @@ export const resume = [
 ];
 
 export const myskills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  {
+    skill: "React",
+    percentage: "90%",
+  },
+  {
+    skill: "React",
+    percentage: "80%",
+  },
+  {
+    skill: "React",
+    percentage: "70%",
+  },
+  {
+    skill: "React",
+    percentage: "60%",
+  },
+  {
+    skill: "React",
+    percentage: "100%",
+  },
 ];

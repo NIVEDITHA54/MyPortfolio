@@ -1,26 +1,28 @@
 import React from "react";
 import styled from "styled-components";
-import Burger from "./Burger";
+import Burger from "./burger";
 
 const Nav = styled.nav`
   width: 100%;
-  height: 55px;
+  height: 80px;
 
-  padding: 0 20px;
+  padding: 18px 20px;
   display: flex;
-  justify-content: space-between;
-  .logo {
-    padding: 15px 0;
-  }
+  justify-content: center;
 `;
 
 const Navigation = () => {
   return (
     <Nav>
-      <h1 class="logo me-auto me-lg-0">
-        <a href="index.html">Niveditha</a>
-      </h1>
-      <Burger />
+      <div className="col-md-3 col-lg-5 col-xs-1 align-items-center">
+        <h1 class="logo">
+          <a href="/">Niveditha</a>
+        </h1>
+      </div>
+
+      <div className="col-md-6 col-lg-4 col-xs-1 align-items-center">
+        <Burger />
+      </div>
     </Nav>
   );
 };

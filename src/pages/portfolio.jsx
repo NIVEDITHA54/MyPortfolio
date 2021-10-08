@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-
 import { portfolio } from "../data.js";
 
 export default function Portfolio() {
-  const [filterParam, setFilterParam] = useState(["All"]);
-  console.log(filterParam);
+  const [filterParam, setFilterParam] = useState("All");
 
   function search(items) {
     if (filterParam === "All") return items;
@@ -35,7 +33,7 @@ export default function Portfolio() {
         <div className="row" data-aos="fade-up" data-aos-delay={200} mt-5>
           {search(portfolio).map((item) => (
             <div key={item.id} className="col-sm-6">
-              <div class="card border-light mb-5 rounded-3">
+              <div class="card border-light mb-5 rounded-3 shadow bg-body">
                 <h2
                   class="card-header p-4
                   "

@@ -6,8 +6,20 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
+
+  a {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #888888;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
   li {
     padding: 18px 10px;
+  }
+  icons {
+    font-size: 2rem;
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;
@@ -20,37 +32,47 @@ const Ul = styled.ul`
     width: 150px;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
-    color: white;
+    a {
+      color: white;
+    }
   }
 `;
 
-const RightNav = ({ open }) => {
+const RightNav = ({ open, parentCallback }) => {
   return (
     <Ul open={open}>
       <li>
-        <Link className="text-white" to="/">
-          Home
-        </Link>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <Link className="text-white" to="/about">
-          About
-        </Link>
+        <Link to="/about">About</Link>
       </li>
       <li>
-        <Link className="text-white" to="/resume">
-          Resume
-        </Link>
+        <Link to="/resume">Resume</Link>
       </li>
       <li>
-        <Link className="text-white" to="/portfolio">
-          Portfolio
-        </Link>
+        <Link to="/portfolio">Portfolio</Link>
       </li>
       <li>
-        <Link className="text-white" to="/contact">
-          Contact
-        </Link>
+        <Link to="/contact">Contact</Link>
+      </li>
+      <li>
+        <a
+          href="https://github.com/NIVEDITHA54"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="bi bi-github icons"></i>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.linkedin.com/in/niveditha-ramu"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="bi bi-linkedin icons"></i>
+        </a>
       </li>
     </Ul>
   );

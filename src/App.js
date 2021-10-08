@@ -3,10 +3,8 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HomePage from "./pages/home";
 import About from "./pages/about";
-
 import Resume from "./pages/resume";
 import Portfolio from "./pages/portfolio";
-
 import Contact from "./pages/contact";
 import Navigation from "./components/navigation";
 import Footer from "./components/footer";
@@ -22,7 +20,6 @@ class App extends Component {
           <Switch>
             <Route path="/" exact component={() => <HomePage />} />
             <Route path="/about" exact component={() => <About />} />
-
             <Route path="/contact" exact component={() => <Contact />} />
             <Route path="/resume" exact component={() => <Resume />} />
             <Route path="/portfolio" exact component={() => <Portfolio />} />
