@@ -50,7 +50,7 @@ const Ul = styled.ul`
 
 const RightNav = ({ open, parentCallback }) => {
   return (
-    <Ul open={open} className="mt-3">
+    <Ul open={open}>
       <li>
         <Link to="/MyPortfolio/">Home</Link>
       </li>

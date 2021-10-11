@@ -11,7 +11,7 @@ export default class Skills extends Component {
           </div>
 
           <div className="row skills-content">
-            {myskills.map((skill, index) => (
+            {myskills.map((skill) => (
               <div className="col-6">
                 <div key={skill.id} className="progress">
                   <span className="skill">
