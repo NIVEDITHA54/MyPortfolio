@@ -52,19 +52,19 @@ const RightNav = ({ open, parentCallback }) => {
   return (
     <Ul open={open}>
       <li>
-        <Link to="/MyPortfolio/">Home</Link>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/MyPortfolio/about">About</Link>
+        <Link to="/about">About</Link>
       </li>
       <li>
-        <Link to="/MyPortfolio/resume">Resume</Link>
+        <Link to="/resume">Resume</Link>
       </li>
       <li>
-        <Link to="/MyPortfolio/portfolio">Portfolio</Link>
+        <Link to="/portfolio">Portfolio</Link>
       </li>
       <li>
-        <Link to="/MyPortfolio/contact">Contact</Link>
+        <Link to="/contact">Contact</Link>
       </li>
       <li>
         <a

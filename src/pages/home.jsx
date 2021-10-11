@@ -28,7 +28,7 @@ export default class Home extends Component {
               <i className="bi bi-linkedin icons"></i>
             </a>
           </div>
-          <Link to="/MyPortfolio/about" className="btn-about">
+          <Link to="/about" className="btn-about">
             About Me
           </Link>
         </div>

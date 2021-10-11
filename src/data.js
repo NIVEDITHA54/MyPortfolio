@@ -26,7 +26,7 @@ export const portfolio = [
     type: "backend",
     company: "Infor",
     date: "June 2021",
-    url: "/MyPortfolio/portfolio",
+    url: "/portfolio",
     title: "Test",
     technologies: "Java,Swing,Hibernate",
     description:
@@ -37,7 +37,7 @@ export const portfolio = [
     type: "backend",
     company: "Temenos",
     date: "July 2018 - Jan 2021",
-    url: "/MyPortfolio/portfolio",
+    url: "/portfolio",
     title: "MW42 Tool",
     technologies: "Core Java",
     description:
@@ -48,7 +48,7 @@ export const portfolio = [
     type: "backend",
     company: "Temenos",
     date: "July 2018 - Jan 2021",
-    url: "/MyPortfolio/portfolio",
+    url: "/portfolio",
     title: "Voc Updater Tool",
     technologies: "Core Java , Hibernate",
     description:
