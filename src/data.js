@@ -26,7 +26,7 @@ export const portfolio = [
     type: "backend",
     company: "Infor",
     date: "June 2021",
-    url: "",
+    url: "/portfolio",
     title: "Test",
     technologies: "Java,Swing,Hibernate",
     description:
@@ -37,22 +37,22 @@ export const portfolio = [
     type: "backend",
     company: "Temenos",
     date: "July 2018 - Jan 2021",
-    url: "",
+    url: "/portfolio",
     title: "MW42 Tool",
     technologies: "Core Java",
     description:
-      "This tool writes the Lock stack,Call stack and the related details of the session into csv file.It is mainly used to monitor system and analyze performance issue.",
+      "This tool helps in finding the mismatch between the type of the application tables created in database and its entry in master table.It stores the mismatched data in excel sheet for easy analysis.This tool also provides the provision to correct the found mismatches.It works on MSSQL,ORACLE and DB2 environments.",
   },
   {
     id: 5,
     type: "backend",
     company: "Temenos",
     date: "July 2018 - Jan 2021",
-    url: "",
+    url: "/portfolio",
     title: "Voc Updater Tool",
-    technologies: "Java,JDBC",
+    technologies: "Core Java , Hibernate",
     description:
-      "This tool writes the Lock stack,Call stack and the related details of the session into csv file.It is mainly used to monitor system and analyze performance issue.",
+      "This tool writes the Lock stack,Call stack and the related details of the session into csv file.It is mainly used to monitor system and analyze performance issues.",
   },
 ];
 export const resume = [
@@ -75,29 +75,50 @@ export const resume = [
     profile: "Software Engineer",
     duration: "July 2018-Jan 2021",
     company: "Temenos India Pvt Ltd.,Bengaluru,India",
-    details: "testing",
+    details:
+      "Handling critical production calls such as online performance,COB.Develop tools to assist in troubleshooting.Troubleshooting and identifying feasible solutions for technical issues in different layers of architecture.Perform code analysis,replication of the issue and move the issue identified as bugs to maintenance.",
   },
 ];
 
 export const myskills = [
   {
-    skill: "React",
+    id: 1,
+    skill: "HTML5 , CSS3 , Bootstrap 5 & Responsive web design",
+    percentage: "99%",
+  },
+  {
+    id: 2,
+    skill: "Javascript ES6",
     percentage: "90%",
   },
   {
+    id: 3,
     skill: "React",
     percentage: "80%",
   },
   {
-    skill: "React",
-    percentage: "70%",
+    id: 4,
+    skill: "Java , Hibernate , Spring boot",
+    percentage: "90%",
   },
   {
-    skill: "React",
-    percentage: "60%",
+    id: 5,
+    skill: "Python",
+    percentage: "80%",
   },
   {
-    skill: "React",
+    id: 6,
+    skill: "MSSQL & ORACLE",
+    percentage: "90%",
+  },
+  {
+    id: 7,
+    skill: "Git , Github , Docker",
     percentage: "100%",
+  },
+  {
+    id: 8,
+    skill: "Jboss , IBM WAS",
+    percentage: "80%",
   },
 ];

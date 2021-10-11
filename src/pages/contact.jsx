@@ -15,7 +15,7 @@ export default class Contact extends Component {
               title="location"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2447.3598434944834!2d4.459888051102601!3d52.16415067019296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5c71dc830257f%3A0xee750bda37da3000!2sVerbeekstraat%2012%2C%202332%20CA%20Leiden!5e0!3m2!1sen!2snl!4v1632473156504!5m2!1sen!2snl"
               style={{ border: 0, width: "100%", height: 270 }}
-              allowfullscreen=""
+              allowFullScreen=""
               frameBorder={0}
             />
           </div>

@@ -28,21 +28,10 @@ export default class Resume extends Component {
                 <div key={item.id} className="resume-item">
                   <h4>{item.profile}</h4>
                   <h5>{item.company}</h5>
-                  <p>
+                  <h6>
                     <em>{item.duration}</em>
-                  </p>
-
-                  <ul>
-                    <li>
-                      Lead in the design, development, and implementation of the
-                      graphic, layout, and production communication materials
-                    </li>
-                    <li>
-                      Delegate tasks to the 7 members of the design team and
-                      provide counsel on all aspects of the project.{" "}
-                    </li>
-                  </ul>
-                  <p />
+                  </h6>
+                  <p>{item.details}</p>
                 </div>
               ))}
             </div>

@@ -30,28 +30,28 @@ export default function Portfolio() {
           <span className="focus"></span>
         </div>
 
-        <div className="row mt-5" data-aos="fade-up" data-aos-delay={200} mt-5>
+        <div className="row mt-5" data-aos="fade-up" data-aos-delay={200}>
           {search(portfolio).map((item) => (
             <div key={item.id} className="col-sm-6">
-              <div class="card border-light mb-5 rounded-3 shadow bg-body">
+              <div className="card border-light mb-5 rounded-3 shadow bg-body">
                 <h2
-                  class="card-header p-4
+                  className="card-header p-4
                   "
                 >
                   {item.title}
                 </h2>
-                <div class="card-body">
-                  <p class="card-subtitle mb-2 text-muted">
+                <div className="card-body">
+                  <p className="card-subtitle mb-2 text-muted">
                     <strong>Company :</strong> {item.company}
                   </p>
-                  <p class="card-subtitle mb-2 text-muted">
+                  <p className="card-subtitle mb-2 text-muted">
                     <strong>Technologies : </strong> {item.technologies}
                   </p>
-                  <p class="card-subtitle mb-2 text-muted">
+                  <p className="card-subtitle mb-2 text-muted">
                     <strong>Project date : </strong>
                     {item.date}
                   </p>
-                  <p class="card-text">{item.description}</p>
+                  <p className="card-text">{item.description}</p>
 
                   <a
                     href={item.url}

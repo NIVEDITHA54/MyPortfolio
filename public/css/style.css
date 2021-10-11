@@ -83,8 +83,16 @@ h6 {
   }
 }
 
+.social-links a {
+  color: #8888;
+  padding-left: 30px;
+  display: inline-block;
+  line-height: 0px;
+  transition: 0.3s;
+  font-size: 40px;
+}
 .header-social-links a {
-  color: #ffff;
+  color: white;
   padding-left: 30px;
   display: inline-block;
   line-height: 0px;
@@ -92,6 +100,7 @@ h6 {
   font-size: 40px;
 }
 
+.social-links a:hover,
 .header-social-links a:hover {
   color: #3dc8b7;
 }

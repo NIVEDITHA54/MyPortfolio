@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div>
         <Router>
-          <header id="header" class="fixed-top">
+          <header id="header" className="fixed-top">
             <Navigation />
           </header>
           <Switch>

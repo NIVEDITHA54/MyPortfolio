@@ -1,10 +1,5 @@
-/* eslint-disable no-undef */
 (function () {
-  /**
-   * Easy selector helper function
-  
-   */
-
+  // Easy selector helper function
   const forms = document.querySelectorAll(".requires-validation");
   Array.from(forms).forEach(function (form) {
     form.addEventListener(
@@ -30,30 +25,8 @@
     }
   };
 
-  /**
-   * Easy event listener function
-   */
-  const on = (type, el, listener, all = false) => {
-    let selectEl = select(el, all);
-    if (selectEl) {
-      if (all) {
-        selectEl.forEach((e) => e.addEventListener(type, listener));
-      } else {
-        selectEl.addEventListener(type, listener);
-      }
-    }
-  };
+  //Scrolls to an element with header offset
 
-  /**
-   * Easy on scroll event listener
-   */
-  const onscroll = (el, listener) => {
-    el.addEventListener("scroll", listener);
-  };
-
-  /**
-   * Scrolls to an element with header offset
-   */
   const scrollto = (el) => {
     let header = select("#header");
     let offset = header.offsetHeight;
@@ -65,9 +38,8 @@
     });
   };
 
-  /**
-   * Scroll with ofset on page load with hash links in the url
-   */
+  //Scroll with ofset on page load with hash links in the url
+
   window.addEventListener("load", () => {
     if (window.location.hash) {
       if (select(window.location.hash)) {
@@ -76,9 +48,8 @@
     }
   });
 
-  /**
-   * Animation on scroll
-   */
+  // Animation on scroll
+
   window.addEventListener("load", () => {
     // eslint-disable-next-line no-undef
     AOS.init({
