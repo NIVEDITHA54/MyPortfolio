@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { portfolio } from "../data.js";
+import { Link } from "react-router-dom";
 
 export default function Portfolio() {
   const [filterParam, setFilterParam] = useState("All");
@@ -53,14 +54,14 @@ export default function Portfolio() {
                   </p>
                   <p className="card-text">{item.description}</p>
 
-                  <a
-                    href={item.url}
+                  <Link
+                    to={item.url}
                     className="btn-about"
                     target="_blank"
                     rel="noreferrer"
                   >
                     Project link
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
