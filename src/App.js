@@ -19,28 +19,24 @@ class App extends Component {
           </header>
           <Switch>
             <Route path="/" exact component={() => <HomePage />} />
+            <Route path="/MyPortfolio/" exact component={() => <HomePage />} />
             <Route
-              path="/portfolio-app/"
-              exact
-              component={() => <HomePage />}
-            />
-            <Route
-              path="/portfolio-app/about"
+              path="/MyPortfolio/about"
               exact
               component={() => <About />}
             />
             <Route
-              path="/portfolio-app/contact"
+              path="/MyPortfolio/contact"
               exact
               component={() => <Contact />}
             />
             <Route
-              path="/portfolio-app/resume"
+              path="/MyPortfolio/resume"
               exact
               component={() => <Resume />}
             />
             <Route
-              path="/portfolio-app/portfolio"
+              path="/MyPortfolio/portfolio"
               exact
               component={() => <Portfolio />}
             />
