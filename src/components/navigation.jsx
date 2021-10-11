@@ -15,7 +15,7 @@ const Navigation = () => {
     <Nav>
       <div className="col-md-3 col-lg-5 col-xs-1 align-items-center">
         <h1 className="logo">
-          <a href="/">Niveditha</a>
+          <a href="/portfolio-app/">Niveditha</a>
         </h1>
       </div>
 
