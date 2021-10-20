@@ -54,9 +54,14 @@ export default function Portfolio() {
                   </p>
                   <p className="card-text">{item.description}</p>
 
-                  <Link to={item.url} className="btn-about">
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    className="btn-about"
+                    rel="noreferrer"
+                  >
                     Project link
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
